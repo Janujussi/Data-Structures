@@ -1,0 +1,70 @@
+// Name: Jan Morrison
+// Class: CS 3305/Section#3
+// Term: Fall 2021
+// Instructor: Dr. Haddad
+// Assignment: 7
+
+// FILE: PQ_Heap.template
+//	This file implements all methods declared in PQ_Heap.h
+
+// METHODS:
+//	bool priority_queue_heap<T>::is_empty() const
+//		Postcondition: return true if priority queue is empty.
+//
+//	bool priority_queue_heap<T>::is_full() const
+//		Postcondition: return true if priority queue is full.
+//
+//	T priority_queue_heap<T>::front()
+//		Precondition: priority queue is not empty.
+//		Postcondition: return the front element from the priority queue.
+//
+//	int priority_queue_heap<T>::size()
+//		Postcondition: return number of elements in the queue.
+//
+//	T priority_queue_heap<T>::dequeue()
+//		Precondition: priority queue is not empty.
+//		Postcondition: remove the largest value from this priority queue
+//			and return it.
+//
+//	void priority_queue_heap<T>::enqueue(const T& value)
+//		Precondition: priority queue is not empty.
+//		Postcondition: inserts value into the priority queue.
+
+template <class T>
+bool priority_queue_heap<T>::is_empty() const
+{
+	return this->root->is_empty();
+}
+
+template <class T>
+bool priority_queue_heap<T>::is_full() const
+{
+	return this->root->is_full();
+}
+
+template <class T>
+T priority_queue_heap<T>::front()
+{
+	return this->root->get_data()[0];
+}
+
+template <class T>
+int priority_queue_heap<T>::size()
+{
+	return this->root->get_size();
+}
+
+template <class T>
+T priority_queue_heap<T>::dequeue()
+{
+	T* data = this->root->get_data();
+	T largestValue = data[0];
+
+	return this->root->remove();
+}
+
+template <class T>
+void priority_queue_heap<T>::enqueue(const T& value)
+{
+	this->root->insert(value);
+}
