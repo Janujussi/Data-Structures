@@ -3,7 +3,7 @@
 // FILE: node1_Test_New.cpp
 
 #include <iostream>		// Provides input and output
-#include <cstdio>			// Provides printf
+#include <cstdio>		// Provides printf
 #include "node1_New.h"		// Provides the class node1
 
 using namespace std;
@@ -11,10 +11,10 @@ using namespace main_savitch_5;
 
 int main() {
 	char continueLoop = 'Y';		// Value for which the menu will keep running
-	int menuOption;							// The option from the menu to run DailyTemp's methods
-	double initValue;						// Initial value to initialize the list with
-	node* grades = NULL;								// Head pointer
-	node* curNode = NULL;							// Used for extending list
+	int menuOption;				// The option from the menu to run DailyTemp's methods
+	double initValue;			// Initial value to initialize the list with
+	node* grades = NULL;			// Head pointer
+	node* curNode = NULL;			// Used for extending list
 	node* list2 = NULL;
 
 	// The list is empty at first, asking for a value to initialize the first node
