@@ -1,8 +1,4 @@
 // Name: Jan Morrison
-// Class: CS 3305/Section#3
-// Term: Fall 2021
-// Instructor: Dr. Haddad
-// Assignment: 9
 
 // FILE: Reachability_Matrix.cpp
 //	This program lets user create an adjacency matrix and

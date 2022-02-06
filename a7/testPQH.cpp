@@ -1,8 +1,4 @@
 // Name: Jan Morrison
-// Class: CS 3305/Section#3
-// Term: Fall 2021
-// Instructor: Dr. Haddad
-// Assignment: 7
 
 // FILE: testPQH.cpp
 //	This program creates a priority queue and lets the user

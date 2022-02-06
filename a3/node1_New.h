@@ -1,8 +1,4 @@
 // Name: Jan Morrison
-// Class: CS 3305/Section#3
-// Term: Fall 2021
-// Instructor: Dr. Haddad
-// Assignment: 3
 
 // FILE: node1_New.h
 // PROVIDES: A class for a node in a linked list, and list manipulation

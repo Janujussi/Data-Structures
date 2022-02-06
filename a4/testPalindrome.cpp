@@ -1,8 +1,4 @@
 // Name: Jan Morrison
-// Class: CS 3305/Section#3
-// Term: Fall 2021
-// Instructor: Dr. Haddad
-// Assignment: 4
 
 // FILE: testPalindrome.cpp
 // 	This program runs a menu loop which lets the user
